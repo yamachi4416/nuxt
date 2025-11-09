@@ -79,8 +79,8 @@ importers:
         specifier: workspace:*
         version: link:packages/rspack
       '@nuxt/test-utils':
-        specifier: https://pkg.pr.new/@nuxt/test-utils@3a258b9
-        version: https://pkg.pr.new/@nuxt/test-utils@3a258b9(@playwright/test@1.56.1)(@testing-library/vue@8.1.0(@vue/compiler-sfc@3.5.23)(vue@3.5.23(typescript@5.9.3)))(@vue/test-utils@2.4.6)(happy-dom@20.0.10)(magicast@0.5.0)(playwright-core@1.56.1)(typescript@5.9.3)(vitest@3.2.4(@types/debug@4.1.12)(@types/node@24.10.0)(happy-dom@20.0.10)(jiti@2.6.1)(terser@5.44.0)(yaml@2.8.1))
+        specifier: https://pkg.pr.new/@nuxt/test-utils@d0fa824
+        version: https://pkg.pr.new/@nuxt/test-utils@d0fa824(@playwright/test@1.56.1)(@testing-library/vue@8.1.0(@vue/compiler-sfc@3.5.23)(vue@3.5.23(typescript@5.9.3)))(@vue/test-utils@2.4.6)(happy-dom@20.0.10)(magicast@0.5.0)(playwright-core@1.56.1)(typescript@5.9.3)(vitest@3.2.4(@types/debug@4.1.12)(@types/node@24.10.0)(happy-dom@20.0.10)(jiti@2.6.1)(terser@5.44.0)(yaml@2.8.1))
       '@nuxt/webpack-builder':
         specifier: workspace:*
         version: link:packages/webpack
@@ -2100,8 +2100,8 @@ packages:
       vitest:
         optional: true
 
-  '@nuxt/test-utils@https://pkg.pr.new/@nuxt/test-utils@3a258b9':
-    resolution: {tarball: https://pkg.pr.new/@nuxt/test-utils@3a258b9}
+  '@nuxt/test-utils@https://pkg.pr.new/@nuxt/test-utils@d0fa824':
+    resolution: {tarball: https://pkg.pr.new/@nuxt/test-utils@d0fa824}
     version: 3.20.1
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
     peerDependencies:
@@ -9561,7 +9561,7 @@ snapshots:
       - magicast
       - typescript
 
-  '@nuxt/test-utils@https://pkg.pr.new/@nuxt/test-utils@3a258b9(@playwright/test@1.56.1)(@testing-library/vue@8.1.0(@vue/compiler-sfc@3.5.23)(vue@3.5.23(typescript@5.9.3)))(@vue/test-utils@2.4.6)(happy-dom@20.0.10)(magicast@0.5.0)(playwright-core@1.56.1)(typescript@5.9.3)(vitest@3.2.4(@types/debug@4.1.12)(@types/node@24.10.0)(happy-dom@20.0.10)(jiti@2.6.1)(terser@5.44.0)(yaml@2.8.1))':
+  '@nuxt/test-utils@https://pkg.pr.new/@nuxt/test-utils@d0fa824(@playwright/test@1.56.1)(@testing-library/vue@8.1.0(@vue/compiler-sfc@3.5.23)(vue@3.5.23(typescript@5.9.3)))(@vue/test-utils@2.4.6)(happy-dom@20.0.10)(magicast@0.5.0)(playwright-core@1.56.1)(typescript@5.9.3)(vitest@3.2.4(@types/debug@4.1.12)(@types/node@24.10.0)(happy-dom@20.0.10)(jiti@2.6.1)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
       '@nuxt/kit': link:packages/kit
       c12: 3.3.1(magicast@0.5.0)
