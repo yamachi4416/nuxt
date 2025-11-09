@@ -87,7 +87,7 @@
     "@nuxt/eslint-config": "1.10.0",
     "@nuxt/kit": "workspace:*",
     "@nuxt/rspack-builder": "workspace:*",
-    "@nuxt/test-utils": "3.20.1",
+    "@nuxt/test-utils": "https://pkg.pr.new/@nuxt/test-utils@3a258b9",
     "@nuxt/webpack-builder": "workspace:*",
     "@playwright/test": "1.56.1",
     "@rspack/core": "1.6.1",
